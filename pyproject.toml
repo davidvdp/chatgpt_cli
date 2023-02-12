@@ -1,3 +1,12 @@
 [build-system]
 requires = ["setuptools", "openai"]
-build-backend = "setuptools.buipip d_meta"
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ChatGPT cli"
+requires-python = ">=3.7"
+
+dependencies = [
+    "openai",
+    python_version<"3.8"',
+]
